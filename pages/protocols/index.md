@@ -12,7 +12,7 @@ Welcome to the CCMS Clinical Protocols section. Here you'll find evidence-based 
 ## Available Protocols
 
 ### Endocrine Disorders
-* [Diabetes Management](/protocols/diabetes-management.html) - Comprehensive diabetes care protocol.
+* [Diabetes Management]({{ site.baseurl }}/protocols/diabetes-management.html) - Comprehensive diabetes care protocol.
 
 ### Coming Soon
 * Hypertension Management
