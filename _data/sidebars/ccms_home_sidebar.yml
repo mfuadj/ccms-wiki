@@ -1,0 +1,47 @@
+entries:
+- title: sidebar
+  product: CCMS Documentation
+  version: 1.0
+  folders:
+
+  - title: Overview
+    output: web
+    folderitems:
+
+    - title: Home
+      url: /index.html
+      output: web
+      type: homepage
+
+    - title: Quick Navigation
+      url: /quick-navigation.html
+      output: web
+
+  - title: Medical Sections
+    output: web
+    folderitems:
+
+    - title: Clinical Protocols
+      url: /protocols/
+      output: web
+      external_url: false
+
+    - title: Practice Guidelines  
+      url: /guidelines/
+      output: web
+      external_url: false
+
+    - title: Medical Procedures
+      url: /procedures/
+      output: web
+      external_url: false
+
+    - title: Medications
+      url: /medications/
+      output: web
+      external_url: false
+
+    - title: References
+      url: /references/
+      output: web
+      external_url: false
