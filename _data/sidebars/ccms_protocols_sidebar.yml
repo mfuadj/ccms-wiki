@@ -1,0 +1,38 @@
+entries:
+- title: sidebar
+  product: Clinical Protocols
+  version: 1.0
+  folders:
+
+  - title: Overview
+    output: web
+    folderitems:
+
+    - title: Protocols Home
+      url: /protocols/
+      output: web
+      type: homepage
+
+  - title: Endocrine Protocols
+    output: web
+    folderitems:
+
+    - title: Diabetes Management
+      url: /protocols/diabetes-management.html
+      output: web
+
+    - title: Thyroid Disorders
+      url: /protocols/thyroid-disorders.html
+      output: web
+
+  - title: Cardiovascular Protocols
+    output: web
+    folderitems:
+
+    - title: Hypertension Management
+      url: /protocols/hypertension.html
+      output: web
+
+    - title: Chest Pain Assessment
+      url: /protocols/chest-pain.html
+      output: web
