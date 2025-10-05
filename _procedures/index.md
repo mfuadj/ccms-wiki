@@ -8,4 +8,4 @@ permalink: /procedures/
 
 # Procedures
 
-Step-by-step medical procedures and clinical techniques.
+Step-by-step medical procedures and clinical techniques for safe and effective patient care.
