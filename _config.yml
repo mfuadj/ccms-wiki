@@ -1,0 +1,99 @@
+# Site settings
+title: CCMS Medical Documentation
+description: Clinical Content Management System - Protocols, Guidelines & Procedures for Healthcare Professionals
+url: "https://mfuadj.github.io"
+baseurl: "/ccms-wiki"
+
+# Theme
+remote_theme: just-the-docs/just-the-docs
+color_scheme: light
+
+# Site author
+author:
+  name: Dr. Fuad Jaafar
+  email: fuad@example.com
+
+# Collections for medical documentation
+collections:
+  protocols:
+    permalink: "/protocols/:path/"
+    output: true
+  guidelines:
+    permalink: "/guidelines/:path/"
+    output: true
+  procedures:
+    permalink: "/procedures/:path/"
+    output: true
+  medications:
+    permalink: "/medications/:path/"
+    output: true
+  references:
+    permalink: "/references/:path/"
+    output: true
+
+# Just the Docs collection configuration
+just_the_docs:
+  collections:
+    protocols:
+      name: Clinical Protocols
+      nav_exclude: false
+      search_exclude: false
+    guidelines:
+      name: Practice Guidelines
+      nav_exclude: false
+      search_exclude: false
+    procedures:
+      name: Procedures
+      nav_exclude: false
+      search_exclude: false
+    medications:
+      name: Medications
+      nav_exclude: false
+      search_exclude: false
+    references:
+      name: References
+      nav_exclude: false
+      search_exclude: false
+
+# Search functionality
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# Navigation
+nav_sort: case_insensitive
+
+# Footer
+footer_content: "Copyright &copy; 2025 Dr. Fuad Jaafar. CCMS Medical Documentation - Clinical protocols and guidelines for healthcare professionals."
+
+# External links (top right)
+aux_links:
+  "GitHub Repository":
+    - "https://github.com/mfuadj/ccms-wiki"
+
+# Features
+back_to_top: true
+back_to_top_text: "Back to top"
+heading_anchors: true
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - node_modules/
+  - vendor/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
