@@ -14,27 +14,27 @@ Welcome to the **Clinical Content Management System (CCMS)** documentation porta
 
 <div class="grid-container">
   <div class="grid-item">
-    <h3><a href="/ccms-wiki/protocols/">📋 Clinical Protocols</a></h3>
+    <h3><a href="{{ site.baseurl }}/protocols/">📋 Clinical Protocols</a></h3>
     <p>Evidence-based clinical protocols for common conditions and treatments</p>
   </div>
   
   <div class="grid-item">
-    <h3><a href="/ccms-wiki/guidelines/">📄 Practice Guidelines</a></h3>
+    <h3><a href="{{ site.baseurl }}/guidelines/">📄 Practice Guidelines</a></h3>
     <p>Standardized practice guidelines and quality improvement standards</p>
   </div>
   
   <div class="grid-item">
-    <h3><a href="/ccms-wiki/procedures/">⚕️ Procedures</a></h3>
+    <h3><a href="{{ site.baseurl }}/procedures/">⚕️ Procedures</a></h3>
     <p>Step-by-step medical procedures and clinical techniques</p>
   </div>
   
   <div class="grid-item">
-    <h3><a href="/ccms-wiki/medications/">💊 Medications</a></h3>
+    <h3><a href="{{ site.baseurl }}/medications/">💊 Medications</a></h3>
     <p>Drug information, dosing guidelines, and prescribing protocols</p>
   </div>
   
   <div class="grid-item">
-    <h3><a href="/ccms-wiki/references/">📚 References</a></h3>
+    <h3><a href="{{ site.baseurl }}/references/">📚 References</a></h3>
     <p>Clinical references, guidelines, and evidence-based resources</p>
   </div>
 </div>
