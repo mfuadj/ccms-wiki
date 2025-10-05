@@ -1,0 +1,17 @@
+entries:
+- title: sidebar
+  product: CCMS Guidelines
+  version: 1.0
+  folders:
+  - title: Practice Guidelines
+    output: web
+    folderitems:
+    - title: Overview
+      url: /pages/guidelines/
+      output: web
+    - title: Clinical Guidelines
+      url: /pages/guidelines/clinical/
+      output: web
+    - title: Treatment Guidelines
+      url: /pages/guidelines/treatment/
+      output: web
