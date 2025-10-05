@@ -9,7 +9,7 @@ entries:
     folderitems:
 
     - title: Protocols Home
-      url: /protocols/
+      url: /protocols/index.html
       output: web
       type: homepage
 
@@ -21,18 +21,10 @@ entries:
       url: /protocols/diabetes-management.html
       output: web
 
-    - title: Thyroid Disorders
-      url: /protocols/thyroid-disorders.html
-      output: web
-
-  - title: Cardiovascular Protocols
+  - title: Navigation
     output: web
     folderitems:
 
-    - title: Hypertension Management
-      url: /protocols/hypertension.html
-      output: web
-
-    - title: Chest Pain Assessment
-      url: /protocols/chest-pain.html
+    - title: Back to Home
+      url: /index.html
       output: web
