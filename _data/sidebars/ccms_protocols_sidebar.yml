@@ -9,7 +9,7 @@ entries:
     folderitems:
 
     - title: Protocols Home
-      url: /protocols/index.html
+      url: /ccms-wiki/protocols/
       output: web
       type: homepage
 
@@ -18,7 +18,7 @@ entries:
     folderitems:
 
     - title: Diabetes Management
-      url: /protocols/diabetes-management.html
+      url: /ccms-wiki/protocols/diabetes-management.html
       output: web
 
   - title: Navigation
@@ -26,5 +26,5 @@ entries:
     folderitems:
 
     - title: Back to Home
-      url: /index.html
+      url: /ccms-wiki/
       output: web
