@@ -11,7 +11,11 @@ topnav_dropdowns:
       folderitems:
         - title: Protocols
           url: /protocols/
-        - title: Guidelines  
+        - title: Guidelines
           url: /guidelines/
         - title: Procedures
           url: /procedures/
+        - title: Medications
+          url: /medications/
+        - title: References
+          url: /references/

@@ -1,14 +1,14 @@
 entries:
 - title: sidebar
-  product: Clinical Guidelines
+  product: Clinical References
   version: 1.0
   folders:
 
   - title: Overview
     output: web
     folderitems:
-    - title: Guidelines Home
-      url: /guidelines/index.html
+    - title: References Home
+      url: /references/index.html
       output: web
 
   - title: Navigation
