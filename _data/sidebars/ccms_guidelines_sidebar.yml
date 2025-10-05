@@ -4,16 +4,20 @@ entries:
   version: 1.0
   folders:
 
-  - title: Overview
-    output: web
-    folderitems:
-    - title: Guidelines Home
-      url: /guidelines/index.html
-      output: web
-
   - title: Navigation
     output: web
     folderitems:
     - title: Back to Home
       url: /index.html
       output: web
+
+        - title: Overview
+    output: web
+    folderitems:
+      - title: Guidelines Home
+        url: /guidelines/index.html
+        output: web
+      - title: Introduction to CCMS
+        url: /guidelines/introduction-to-ccms.html
+        output: web
+
