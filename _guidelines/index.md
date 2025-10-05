@@ -8,4 +8,4 @@ permalink: /guidelines/
 
 # Practice Guidelines
 
-Standardized practice guidelines and quality improvement standards.
+Standardized practice guidelines and quality improvement standards for healthcare delivery.
