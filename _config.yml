@@ -16,6 +16,8 @@ exclude:
   - .gitignore
   - vendor
   - README.md
+  - Gemfile
+  - Gemfile.lock
 
 feedback_subject_line: CCMS Documentation Feedback
 feedback_email: # Your email address
@@ -29,6 +31,13 @@ kramdown:
  auto_ids: true
  hard_wrap: false
  syntax_highlighter: rouge
+
+# Essential plugins for GitHub Pages
+plugins:
+  - jekyll-relative-links
+  - jekyll-github-metadata
+  - jekyll-sitemap
+  - jekyll-feed
 
 collections:
   tooltips:
@@ -47,7 +56,7 @@ defaults:
       topnav: topnav
   -
     scope:
-      path: "protocols"
+      path: "pages/protocols"
       type: "pages"
     values:
       layout: "page"
@@ -55,7 +64,7 @@ defaults:
       topnav: topnav
   -
     scope:
-      path: "guidelines"
+      path: "pages/guidelines"
       type: "pages"
     values:
       layout: "page"
@@ -63,7 +72,7 @@ defaults:
       topnav: topnav
   -
     scope:
-      path: "procedures"
+      path: "pages/procedures"
       type: "pages"
     values:
       layout: "page"
@@ -71,7 +80,7 @@ defaults:
       topnav: topnav
   -
     scope:
-      path: "medications"
+      path: "pages/medications"
       type: "pages"
     values:
       layout: "page"
@@ -79,7 +88,7 @@ defaults:
       topnav: topnav
   -
     scope:
-      path: "references"
+      path: "pages/references"
       type: "pages"
     values:
       layout: "page"
@@ -96,6 +105,7 @@ sidebars:
 
 description: "CCMS Medical Documentation - Clinical protocols, practice guidelines, and evidence-based procedures for healthcare professionals"
 
+# Fixed URL format
 url: https://mfuadj.github.io
 baseurl: /ccms-wiki
 
