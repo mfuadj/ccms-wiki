@@ -1,51 +1,67 @@
 repository: mfuadj/ccms-wiki
-
 output: web
 
-topnav_title: CCMS Medical Documentation
-site_title: Clinical Content Management System - Medical Documentation
-company_name: Copyright 2025 Dr. Fuad Jaafar
+# Site Information
+title: "CCMS Medical Documentation"
+tagline: "Clinical Content Management System"
+description: "CCMS Medical Documentation - Clinical protocols, practice guidelines, and evidence-based procedures for healthcare professionals"
+author: "Dr. Fuad Jaafar"
+email: # Add your email here
+company_name: "Copyright 2025 Dr. Fuad Jaafar"
+
+# URLs
+url: "https://mfuadj.github.io"
+baseurl: "/ccms-wiki"
 github_editme_path: mfuadj/ccms-wiki/blob/main/
 
-google_analytics: # Add your GA ID if you have one
-host: 127.0.0.1
-port: 4000
-
-exclude:
-  - .idea/
-  - .gitignore
-  - vendor
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-
-feedback_subject_line: CCMS Documentation Feedback
-feedback_email: # Your email address
-feedback_disable: false
-feedback_text: "Need help with protocols?"
-
+# Jekyll Settings
 highlighter: rouge
 markdown: kramdown
 kramdown:
- input: GFM
- auto_ids: true
- hard_wrap: false
- syntax_highlighter: rouge
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
 
-# Essential plugins for GitHub Pages
+# Build settings
+permalink: pretty
+timezone: Asia/Kuala_Lumpur
+
+# Plugins
 plugins:
   - jekyll-relative-links
   - jekyll-github-metadata
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-seo-tag
 
+# Collections
 collections:
   tooltips:
     output: false
 
+# Exclude files
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .idea/
+  - .gitignore
+  - README.md
+
+# Default values
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
@@ -54,40 +70,35 @@ defaults:
       search: true
       sidebar: ccms_home_sidebar
       topnav: topnav
-  -
-    scope:
+  - scope:
       path: "pages/protocols"
       type: "pages"
     values:
       layout: "page"
       sidebar: ccms_protocols_sidebar
       topnav: topnav
-  -
-    scope:
+  - scope:
       path: "pages/guidelines"
       type: "pages"
     values:
       layout: "page"
       sidebar: ccms_guidelines_sidebar
       topnav: topnav
-  -
-    scope:
+  - scope:
       path: "pages/procedures"
       type: "pages"
     values:
       layout: "page"
       sidebar: ccms_procedures_sidebar
       topnav: topnav
-  -
-    scope:
+  - scope:
       path: "pages/medications"
       type: "pages"
     values:
       layout: "page"
       sidebar: ccms_medications_sidebar
       topnav: topnav
-  -
-    scope:
+  - scope:
       path: "pages/references"
       type: "pages"
     values:
@@ -95,18 +106,31 @@ defaults:
       sidebar: ccms_references_sidebar
       topnav: topnav
 
+# Navigation
+topnav_title: "CCMS Medical Documentation"
+site_title: "Clinical Content Management System - Medical Documentation"
+
+# Sidebar configurations
 sidebars:
-- ccms_home_sidebar
-- ccms_protocols_sidebar
-- ccms_guidelines_sidebar
-- ccms_procedures_sidebar
-- ccms_medications_sidebar
-- ccms_references_sidebar
+  - ccms_home_sidebar
+  - ccms_protocols_sidebar
+  - ccms_guidelines_sidebar
+  - ccms_procedures_sidebar
+  - ccms_medications_sidebar
+  - ccms_references_sidebar
 
-description: "CCMS Medical Documentation - Clinical protocols, practice guidelines, and evidence-based procedures for healthcare professionals"
+# Feedback
+feedback_subject_line: "CCMS Documentation Feedback"
+feedback_email: # Add your email here
+feedback_disable: false
+feedback_text: "Need help with protocols?"
 
-# Fixed URL format
-url: https://mfuadj.github.io
-baseurl: /ccms-wiki
+# Analytics
+google_analytics: # Add your GA ID if needed
 
+# Development
+host: 127.0.0.1
+port: 4000
+
+# GitHub metadata
 github: [metadata]
