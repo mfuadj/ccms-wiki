@@ -1,7 +1,26 @@
 entries:
 - title: sidebar
+  product: Clinical Protocols
+  version: 1.0
   folders:
-  - title: Protocols
+
+  - title: Overview
+    output: web
+    folderitems:
+    - title: Protocols Home
+      url: /protocols/index.html
+      output: web
+
+  - title: Endocrine Protocols
+    output: web
     folderitems:
     - title: Diabetes Management
-      url: /ccms-wiki/protocols/diabetes-management.html
+      url: /protocols/diabetes-management.html
+      output: web
+
+  - title: Navigation
+    output: web
+    folderitems:
+    - title: Back to Home
+      url: /index.html
+      output: web
