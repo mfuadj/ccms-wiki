@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Diabetes Management Protocol
-parent: Clinical Protocols
+parent: Protocols
 nav_order: 1
 ---
 
