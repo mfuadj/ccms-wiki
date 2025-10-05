@@ -1,48 +1,102 @@
-title: CCMS Medical Documentation
-description: Clinical Content Management System - Protocols, Guidelines & Procedures
-url: "https://mfuadj.github.io"
-baseurl: "/ccms-wiki"
+repository: mfuadj/ccms-wiki
 
-# Theme
-remote_theme: just-the-docs/just-the-docs
+output: web
 
-# Collections
-collections:
-  protocols:
-    permalink: "/protocols/:path/"
-    output: true
-  guidelines:
-    permalink: "/guidelines/:path/"
-    output: true
-  procedures:
-    permalink: "/procedures/:path/"
-    output: true
-  medications:
-    permalink: "/medications/:path/"
-    output: true
-  references:
-    permalink: "/references/:path/"
-    output: true
+topnav_title: CCMS Medical Documentation
+site_title: Clinical Content Management System - Medical Documentation
+company_name: Copyright 2025 Dr. Fuad Jaafar
+github_editme_path: mfuadj/ccms-wiki/blob/main/
 
-# Just the Docs settings
-search_enabled: true
-heading_anchors: true
-nav_sort: case_insensitive
+google_analytics: # Add your GA ID if you have one
+host: 127.0.0.1
+port: 4000
 
-# Footer
-footer_content: "CCMS Medical Documentation - Dr. Fuad Jaafar"
-
-# External links
-aux_links:
-  "GitHub":
-    - "https://github.com/mfuadj/ccms-wiki"
-
-# Plugins (GitHub Pages compatible only)
-plugins:
-  - jekyll-seo-tag
-
-# Exclude files
 exclude:
+  - .idea/
+  - .gitignore
+  - vendor
   - README.md
-  - Gemfile
-  - Gemfile.lock
+
+feedback_subject_line: CCMS Documentation Feedback
+feedback_email: # Your email address
+feedback_disable: false
+feedback_text: "Need help with protocols?"
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+collections:
+  tooltips:
+    output: false
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      comments: true
+      search: true
+      sidebar: ccms_home_sidebar
+      topnav: topnav
+  -
+    scope:
+      path: "protocols"
+      type: "pages"
+    values:
+      layout: "page"
+      sidebar: ccms_protocols_sidebar
+      topnav: topnav
+  -
+    scope:
+      path: "guidelines"
+      type: "pages"
+    values:
+      layout: "page"
+      sidebar: ccms_guidelines_sidebar
+      topnav: topnav
+  -
+    scope:
+      path: "procedures"
+      type: "pages"
+    values:
+      layout: "page"
+      sidebar: ccms_procedures_sidebar
+      topnav: topnav
+  -
+    scope:
+      path: "medications"
+      type: "pages"
+    values:
+      layout: "page"
+      sidebar: ccms_medications_sidebar
+      topnav: topnav
+  -
+    scope:
+      path: "references"
+      type: "pages"
+    values:
+      layout: "page"
+      sidebar: ccms_references_sidebar
+      topnav: topnav
+
+sidebars:
+- ccms_home_sidebar
+- ccms_protocols_sidebar
+- ccms_guidelines_sidebar
+- ccms_procedures_sidebar
+- ccms_medications_sidebar
+- ccms_references_sidebar
+
+description: "CCMS Medical Documentation - Clinical protocols, practice guidelines, and evidence-based procedures for healthcare professionals"
+
+url: https://mfuadj.github.io
+baseurl: /ccms-wiki
+
+github: [metadata]
