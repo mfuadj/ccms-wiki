@@ -8,4 +8,4 @@ permalink: /medications/
 
 # Medications
 
-Drug information, dosing guidelines, and prescribing protocols.
+Comprehensive drug information, dosing guidelines, and prescribing protocols for safe medication management.
