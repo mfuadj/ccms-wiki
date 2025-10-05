@@ -8,4 +8,4 @@ permalink: /references/
 
 # References
 
-Clinical references, guidelines, and evidence-based resources.
+Clinical references, guidelines, and evidence-based resources from authoritative medical organizations.
