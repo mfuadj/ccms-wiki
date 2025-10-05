@@ -1,14 +1,12 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3.0"
-gem "just-the-docs", "0.8.2"
+# GitHub Pages gem (includes Jekyll and compatible plugins)
+gem "github-pages", group: :jekyll_plugins
 
-group :jekyll_plugins do
-  gem "jekyll-seo-tag"
-end
-
+# Optional: for local development
 gem "webrick", "~> 1.8"
 
+# Windows compatibility
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
   gem "tzinfo-data"
