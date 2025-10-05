@@ -1,10 +1,10 @@
 title: CCMS Medical Documentation
-description: Clinical Content Management System - Protocols, Guidelines & Procedures for Healthcare Professionals
+description: Clinical Content Management System - Protocols, Guidelines & Procedures
 url: "https://mfuadj.github.io"
 baseurl: "/ccms-wiki"
 
-# Theme - CORRECTED
-remote_theme: pmarsceill/just-the-docs
+# Theme
+remote_theme: just-the-docs/just-the-docs
 
 # Collections
 collections:
@@ -24,46 +24,25 @@ collections:
     permalink: "/references/:path/"
     output: true
 
-# Just the Docs configuration
-just_the_docs:
-  collections:
-    protocols:
-      name: Clinical Protocols
-    guidelines:
-      name: Practice Guidelines
-    procedures:
-      name: Procedures
-    medications:
-      name: Medications
-    references:
-      name: References
-
-# Search
+# Just the Docs settings
 search_enabled: true
-
-# Navigation
+heading_anchors: true
 nav_sort: case_insensitive
 
 # Footer
-footer_content: "Copyright &copy; 2025 Dr. Fuad Jaafar. CCMS Medical Documentation"
+footer_content: "CCMS Medical Documentation - Dr. Fuad Jaafar"
 
 # External links
 aux_links:
-  "GitHub Repository":
+  "GitHub":
     - "https://github.com/mfuadj/ccms-wiki"
 
-# Features
-back_to_top: true
-heading_anchors: true
-
-# Plugins
+# Plugins (GitHub Pages compatible only)
 plugins:
   - jekyll-seo-tag
 
-# Exclude
+# Exclude files
 exclude:
-  - node_modules/
-  - vendor/
   - README.md
   - Gemfile
   - Gemfile.lock
