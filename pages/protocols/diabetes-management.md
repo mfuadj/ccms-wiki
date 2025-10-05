@@ -1,11 +1,8 @@
 ---
 title: "Diabetes Management Protocol"
-tags: [protocols, diabetes, endocrine]
-keywords: diabetes, glucose, insulin, management
-last_updated: October 5, 2025
-summary: "Evidence-based protocol for diabetes mellitus management in primary care"
+tags: [protocols, diabetes]
 sidebar: ccms_protocols_sidebar
-permalink: protocols/diabetes-management.html
+permalink: /protocols/diabetes-management.html
 ---
 
 # Diabetes Management Protocol
@@ -28,6 +25,3 @@ This protocol provides evidence-based guidelines for the diagnosis, treatment, a
 2. **Metformin as first-line**
 3. **Add second agent if needed**
 4. **Regular monitoring and follow-up**
-
----
-*Protocol based on current clinical guidelines and best practices*
