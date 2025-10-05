@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 
 # Jekyll and GitHub Pages
-gem "jekyll", "~> 4.2"
 gem "github-pages", "~> 228", group: :jekyll_plugins
 
 # Essential plugins
@@ -24,5 +23,3 @@ end
 # Performance booster for watching directories
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
-# Lock Jekyll to prevent issues
-gem "jekyll", ">= 3.5", "< 5.0"
