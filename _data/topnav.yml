@@ -1,0 +1,21 @@
+topnav:
+- title: Topnav
+  items:
+    - title: GitHub
+      external_url: https://github.com/mfuadj/ccms-wiki
+
+topnav_dropdowns:
+- title: Medical Sections
+  folders:
+    - title: Clinical Areas
+      folderitems:
+        - title: Protocols
+          url: /protocols/
+        - title: Guidelines
+          url: /guidelines/
+        - title: Procedures
+          url: /procedures/
+        - title: Medications
+          url: /medications/
+        - title: References
+          url: /references/
