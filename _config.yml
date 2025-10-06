@@ -6,7 +6,7 @@ title: "CCMS Medical Documentation"
 tagline: "Clinical Content Management System"
 description: "CCMS Medical Documentation - Clinical protocols, practice guidelines, and evidence-based procedures for healthcare professionals"
 author: "Dr. Fuad Jaafar"
-email: # Add your email here
+email: "drfj.co@gmail.com.com"  # Replace with your actual email
 company_name: "Copyright 2025 Dr. Fuad Jaafar"
 
 # URLs
@@ -37,6 +37,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # Collections
 collections:
@@ -121,12 +122,12 @@ sidebars:
 
 # Feedback
 feedback_subject_line: "CCMS Documentation Feedback"
-feedback_email: # Add your email here
+feedback_email: "drfj.co@gmail.com"  # Replace with your actual email
 feedback_disable: false
 feedback_text: "Need help with protocols?"
 
 # Analytics
-google_analytics: # Add your GA ID if needed
+google_analytics: ""  # Add your Google Analytics ID if needed
 
 # Development
 host: 127.0.0.1

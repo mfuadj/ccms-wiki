@@ -1,0 +1,122 @@
+[
+  {
+    "title": "CCMS Medical Documentation",
+    "url": "/index.html",
+    "content": "Clinical Content Management System for evidence-based medical protocols and guidelines"
+  },
+  {
+    "title": "Quick Navigation",
+    "url": "/quick-navigation.html",
+    "content": "Rapid access to high-value sections of the CCMS medical documentation site"
+  },
+  {
+    "title": "Clinical Protocols",
+    "url": "/protocols/index.html",
+    "content": "Evidence-based protocols for common medical conditions"
+  },
+  {
+    "title": "Clinical Guidelines",
+    "url": "/guidelines/index.html",
+    "content": "Standardized guidelines that support consistent, evidence-based patient care"
+  },
+  {
+    "title": "Introduction to CCMS",
+    "url": "/guidelines/introduction-to-ccms.html",
+    "content": "High-level orientation to the Clinical Content Management System"
+  },
+  {
+    "title": "Cardiovascular Guidelines",
+    "url": "/guidelines/cardiovascular-guidelines.html",
+    "content": "Evidence-based guidelines for cardiovascular disease management"
+  },
+  {
+    "title": "Diabetes Management Guidelines",
+    "url": "/guidelines/diabetes-management-guidelines.html",
+    "content": "Comprehensive guidelines for diabetes mellitus management"
+  },
+  {
+    "title": "Infectious Disease Guidelines",
+    "url": "/guidelines/infectious-disease-guidelines.html",
+    "content": "Evidence-based guidelines for infectious disease management"
+  },
+  {
+    "title": "Diabetes Management",
+    "url": "/protocols/diabetes-management.html",
+    "content": "Comprehensive diabetes care protocol"
+  },
+  {
+    "title": "Medications",
+    "url": "/medications/index.html",
+    "content": "Drug references, dosing considerations, and safety alerts"
+  },
+  {
+    "title": "Cardiovascular Medications",
+    "url": "/medications/cardiovascular-medications.html",
+    "content": "Comprehensive reference for cardiovascular medications including dosing, interactions, and monitoring"
+  },
+  {
+    "title": "Diabetes Medications",
+    "url": "/medications/diabetes-medications.html",
+    "content": "Comprehensive guide to diabetes medications including oral agents, injectables, and insulin therapy"
+  },
+  {
+    "title": "Antimicrobial Medications",
+    "url": "/medications/antimicrobial-medications.html",
+    "content": "Comprehensive guide to antimicrobial medications including antibiotics, antifungals, and antivirals"
+  },
+  {
+    "title": "Medical Procedures",
+    "url": "/procedures/index.html",
+    "content": "Step-by-step procedural checklists for clinical teams"
+  },
+  {
+    "title": "Central Line Insertion",
+    "url": "/procedures/central-line-insertion.html",
+    "content": "Step-by-step procedure for central venous catheter insertion with safety protocols"
+  },
+  {
+    "title": "Arterial Blood Gas Sampling",
+    "url": "/procedures/arterial-blood-gas-sampling.html",
+    "content": "Step-by-step procedure for arterial blood gas sampling with interpretation guidelines"
+  },
+  {
+    "title": "Lumbar Puncture",
+    "url": "/procedures/lumbar-puncture.html",
+    "content": "Comprehensive procedure for lumbar puncture including indications, technique, and complications"
+  },
+  {
+    "title": "References",
+    "url": "/references/index.html",
+    "content": "Source materials and further reading that support CCMS guidance"
+  },
+  {
+    "title": "Clinical Guidelines References",
+    "url": "/references/clinical-guidelines-references.html",
+    "content": "Comprehensive collection of evidence-based clinical guidelines and practice recommendations"
+  },
+  {
+    "title": "Drug Information References",
+    "url": "/references/drug-information-references.html",
+    "content": "Comprehensive drug information resources including dosing, interactions, and safety data"
+  },
+  {
+    "title": "Medical Calculators and Tools",
+    "url": "/references/medical-calculators-tools.html",
+    "content": "Comprehensive collection of medical calculators, clinical tools, and decision support resources"
+  },
+  {
+    "title": "Search Documentation",
+    "url": "/search.html",
+    "content": "Search across all CCMS medical documentation"
+  },
+  {
+    "title": "Contact CCMS Team",
+    "url": "/contact.html",
+    "content": "Get in touch with the CCMS documentation team"
+  },
+  {
+    "title": "Change Log",
+    "url": "/changelog.html",
+    "content": "Recent updates to CCMS documentation"
+  }
+]

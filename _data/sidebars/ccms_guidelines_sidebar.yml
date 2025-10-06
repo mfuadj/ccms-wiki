@@ -11,7 +11,7 @@ entries:
       url: /index.html
       output: web
 
-        - title: Overview
+  - title: Overview
     output: web
     folderitems:
       - title: Guidelines Home
@@ -19,5 +19,26 @@ entries:
         output: web
       - title: Introduction to CCMS
         url: /guidelines/introduction-to-ccms.html
+        output: web
+
+  - title: Cardiovascular Guidelines
+    output: web
+    folderitems:
+      - title: Cardiovascular Guidelines
+        url: /guidelines/cardiovascular-guidelines.html
+        output: web
+
+  - title: Endocrine Guidelines
+    output: web
+    folderitems:
+      - title: Diabetes Management Guidelines
+        url: /guidelines/diabetes-management-guidelines.html
+        output: web
+
+  - title: Infectious Disease Guidelines
+    output: web
+    folderitems:
+      - title: Infectious Disease Guidelines
+        url: /guidelines/infectious-disease-guidelines.html
         output: web
 
