@@ -9,6 +9,8 @@ topnav_dropdowns:
   folders:
     - title: Clinical Areas
       folderitems:
+        - title: CCMS Hub
+          url: /ccms-hub/
         - title: Protocols
           url: /protocols/
         - title: Guidelines

@@ -1,8 +1,8 @@
 [
   {
-    "title": "CCMS Medical Documentation",
-    "url": "/index.html",
-    "content": "Clinical Content Management System for evidence-based medical protocols and guidelines"
+    "title": "Chapter 1: SystmOne Implementation in Klinik Kesihatan",
+    "url": "/ccms-hub/systmone-implementation.html",
+    "content": "Complete implementation journey of SystmOne (CCMS) at Klinik Kesihatan Bandar Maharani, including planning, rollout, and custom configuration"
   },
   {
     "title": "Quick Navigation",
@@ -35,9 +35,9 @@
     "content": "Comprehensive guidelines for diabetes mellitus management"
   },
   {
-    "title": "Infectious Disease Guidelines",
-    "url": "/guidelines/infectious-disease-guidelines.html",
-    "content": "Evidence-based guidelines for infectious disease management"
+    "title": "Hypertension Management Guidelines",
+    "url": "/guidelines/hypertension-guidelines.html",
+    "content": "Evidence-based guidelines for hypertension diagnosis and management"
   },
   {
     "title": "Diabetes Management",

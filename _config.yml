@@ -114,6 +114,7 @@ site_title: "Clinical Content Management System - Medical Documentation"
 # Sidebar configurations
 sidebars:
   - ccms_home_sidebar
+  - ccms_hub_sidebar
   - ccms_protocols_sidebar
   - ccms_guidelines_sidebar
   - ccms_procedures_sidebar

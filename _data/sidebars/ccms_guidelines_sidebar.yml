@@ -27,6 +27,9 @@ entries:
       - title: Cardiovascular Guidelines
         url: /guidelines/cardiovascular-guidelines.html
         output: web
+      - title: Hypertension Management Guidelines
+        url: /guidelines/hypertension-guidelines.html
+        output: web
 
   - title: Endocrine Guidelines
     output: web

@@ -1,0 +1,80 @@
+entries:
+- title: sidebar
+  product: CCMS Hub
+  version: 1.0
+  folders:
+
+  - title: Navigation
+    output: web
+    folderitems:
+    - title: Back to Home
+      url: /index.html
+      output: web
+
+  - title: Overview
+    output: web
+    folderitems:
+      - title: CCMS Hub Home
+        url: /ccms-hub/index.html
+        output: web
+
+  - title: Getting Started
+    output: web
+    folderitems:
+      - title: SystmOne Implementation
+        url: /ccms-hub/systmone-implementation.html
+        output: web
+      - title: System Overview
+        url: /ccms-hub/system-overview.html
+        output: web
+      - title: User Onboarding
+        url: /ccms-hub/user-onboarding.html
+        output: web
+      - title: Login & Access
+        url: /ccms-hub/login-access.html
+        output: web
+
+  - title: Clinical Workflows
+    output: web
+    folderitems:
+      - title: Patient Management
+        url: /ccms-hub/patient-management.html
+        output: web
+      - title: Clinical Documentation
+        url: /ccms-hub/clinical-documentation.html
+        output: web
+      - title: Prescription Management
+        url: /ccms-hub/prescription-management.html
+        output: web
+      - title: Lab Integration
+        url: /ccms-hub/lab-integration.html
+        output: web
+
+  - title: System Administration
+    output: web
+    folderitems:
+      - title: User Management
+        url: /ccms-hub/user-management.html
+        output: web
+      - title: System Configuration
+        url: /ccms-hub/system-configuration.html
+        output: web
+      - title: Backup & Security
+        url: /ccms-hub/backup-security.html
+        output: web
+
+  - title: Support & Resources
+    output: web
+    folderitems:
+      - title: Troubleshooting Guide
+        url: /ccms-hub/troubleshooting.html
+        output: web
+      - title: Training Materials
+        url: /ccms-hub/training-materials.html
+        output: web
+      - title: System Updates
+        url: /ccms-hub/system-updates.html
+        output: web
+      - title: Contact Support
+        url: /ccms-hub/contact-support.html
+        output: web

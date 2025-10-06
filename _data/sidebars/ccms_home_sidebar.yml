@@ -21,6 +21,11 @@ entries:
     output: web
     folderitems:
 
+    - title: CCMS Hub
+      url: /ccms-hub/
+      output: web
+      external_url: false
+
     - title: Clinical Protocols
       url: /protocols/
       output: web
