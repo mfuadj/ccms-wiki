@@ -5,6 +5,11 @@
     "content": "Complete implementation journey of SystmOne (CCMS) at Klinik Kesihatan Bandar Maharani, including planning, rollout, and custom configuration"
   },
   {
+    "title": "Patient Management",
+    "url": "/ccms-hub/patient-management.html",
+    "content": "End-to-end patient management workflow in CCMS — registration, triage, encounter, follow-up"
+  },
+  {
     "title": "Quick Navigation",
     "url": "/quick-navigation.html",
     "content": "Rapid access to high-value sections of the CCMS medical documentation site"
